@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hey</h1>
+    <!-- <script src="./task.js"></script> -->
+    <script src="task2.js"></script>
+    <button onclick="clickFn()">click me</button>
+    <button id="dbClickBtn">double click me</button>
+    <button onmouseover="">mouse over</button>
+    <button>mouse out</button>
+    <button>mouse up</button>
+    <button onmousedown="mousedownFn()">mouse down</button>
+    <script>
+        // first method
+        function clickFn() {
+            console.log('mouse click');
+        }
+        // second method
+        document.getElementById('dbClickBtn').ondblclick = function() {
+            console.lo('mousse dbl click')
+        }
+
+        function mousedownFn() {
+            console.log('mousedown..')
+        }
+    </script>
+
+</body>
+
+</html>

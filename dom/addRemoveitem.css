@@ -1,0 +1,30 @@
+.container {
+    padding: 20px;
+    background-color: #DCDCDC;
+    width: 500px;
+    align-items: center;
+}
+
+.buttonClass {
+    border-style: inherit;
+}
+
+button:hover {
+    background-color: rgb(0 0 1);
+    color: white;
+}
+
+.list-group-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+}
+
+.listClass {
+    width: auto;
+}
+
+ul {
+    width: 100px
+}

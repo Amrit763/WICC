@@ -1,0 +1,10 @@
+.container {
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+    /* align: center; */
+    padding: 50px;
+}
+
+.box {
+    width: 80%;
+}

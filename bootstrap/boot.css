@@ -1,0 +1,19 @@
+.row {
+    border: 3px red;
+}
+
+.column {
+    border: black;
+}
+
+.c1 {
+    background-color: brown;
+}
+
+.c2 {
+    background-color: cadetblue;
+}
+
+.c3 {
+    background-color: darkblue;
+}

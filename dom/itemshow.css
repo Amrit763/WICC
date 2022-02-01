@@ -1,0 +1,25 @@
+.container {
+    padding: 20px;
+    background-color: #DCDCDC;
+    width: 500px;
+    align-items: center;
+}
+
+.card {
+    width: auto;
+}
+
+.mb-3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list-group-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #DCDCDC;
+}
+
+.title {
+    text-align: center;
+}
