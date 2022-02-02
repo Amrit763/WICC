@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+    reset css
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script> -->
+
+    <style>
+        canvas {
+            border: 2px dotted black;
+            /* margin: 60px; */
+        }
+    </style>
+
+    <script>
+        window.onload = canvas;
+
+        function canvas() {
+            var myCanvas = document.getElementById("myCanvas");
+            if (myCanvas && myCanvas.getContext("2d")) {
+                var context = myCanvas.getContext("2d");
+                var r = 50;
+                var x = -50;
+                setInterval(function() {
+                    context.fillstyle = '#000';
+                    context.fillRect(0, o, context.canvas.width, context.canvas.height);
+
+                    context.beginPath();
+                    context.fillstyle = "red";
+
+                    context.arc(x++, context.canvas.height / 2, r, 0, 2 * Math.PI);
+                    context.fill();
+
+                    if (x >= context.canvas.width + r) {
+                        x = -r;
+                    }
+                }, 10)
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <canvas id="myCanvas" width="350" height="350"></canvas>
+</body>
+
+</html>
